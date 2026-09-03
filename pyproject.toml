@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json-lens"
+version = "1.0.0"
+description = "Instant JSON Formatter, Flattener & Diff Comparator CLI"
+readme = "README.md"
+authors = [
+  { name = "Moch. Erik Irriansyah", email = "erik@narotama.ac.id" }
+]
+license = { text = "MIT" }
+keywords = ["json", "formatter", "flatten", "diff", "cli", "devtools"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Utilities",
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+json-lens = "json_lens.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/MochErik/json-lens"
+Repository = "https://github.com/MochErik/json-lens.git"
+Issues = "https://github.com/MochErik/json-lens/issues"
