@@ -12,7 +12,7 @@
 ## 🚀 Quick Install
 
 ```bash
-pip install json-lens
+pip install git+https://github.com/MochErik/json-lens.git
 ```
 
 ---
