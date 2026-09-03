@@ -1,4 +1,3 @@
-"""JSON-Lens - Instant JSON Formatter, Flattener & Diff Comparator CLI."""
-
+"""json-lens module."""
 __version__ = "1.0.0"
 __author__ = "Moch. Erik Irriansyah"
